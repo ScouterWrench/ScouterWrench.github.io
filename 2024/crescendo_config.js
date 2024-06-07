@@ -2,7 +2,7 @@ var config_data = `
 {
   "dataFormat": "tsv",
   "title": "Scouting PASS 2024",
-  "page_title": "Something else",
+  "page_title": "Disney Minus",
   "checkboxAs": "10",
   "prematch": [
     { "name": "Scouter Initials",
@@ -10,13 +10,13 @@ var config_data = `
       "type": "scouter",
       "size": 5,
       "maxSize": 5,
-      "required": "true"
+      "required": "false"
     },
     { "name": "Event",
       "code": "e",
       "type": "event",
       "defaultValue": "2023tnkn",
-      "required": "true"
+      "required": "false"
     },
     { "name": "Match Level",
       "code": "l",
@@ -27,14 +27,14 @@ var config_data = `
         "f": "Finals"
       },
       "defaultValue": "qm",
-      "required": "true"
+      "required": "false"
     },
     { "name": "Match #",
       "code": "m",
       "type": "match",
       "min": 1,
       "max": 150,
-      "required": "true"
+      "required": "false"
     },
     { "name": "Robot",
       "code": "r",
@@ -47,7 +47,7 @@ var config_data = `
         "r3": "Red-3",
         "b3": "Blue-3"
       },
-      "required":"true"
+      "required":"false"
     },
     { "name": "Team #",
       "code": "t",
@@ -60,7 +60,7 @@ var config_data = `
       "type": "clickable_image",
       "filename": "2024/field_image.png",
       "clickRestriction": "one",
-      "allowableResponses": "1 12 13 24 25 36 37 48 49 60 61 72",
+      "allowableResponses": "1 12 13 24 25 36 37 48 49 60 61 72 80 600",
       "shape": "circle 5 black red true"
     }
   ],
